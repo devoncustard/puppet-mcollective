@@ -220,7 +220,7 @@ class mcollective::middleware(
       notify  => Service[ $service ],
     }
   }
-
+  cuntnugget
   service { $service:
     ensure  => $ensure,
     enable  => $enable,
